@@ -1264,6 +1264,7 @@ MonoBehaviour:
   bridgeWidth: 1.5
   bridgeHeight: 0.1
   bridgeBuildSpeed: 5
+  offsetDistanceBridge: 0.3
   obstaclePrefabs:
   - {fileID: 6039688901016145368, guid: 6a2215d5da46c6043bd1895213c440b5, type: 3}
   obstacleSpawnChance: 0.7
@@ -4524,6 +4525,9 @@ MonoBehaviour:
   rewardHeightOffset: 1.5
   pointsPerReward: 10
   spawnRewardOnFirstPillar: 0
+  movementSpeed: 2
+  movementDistance: 3
+  moveFirstPillar: 0
 --- !u!4 &1735747636
 Transform:
   m_ObjectHideFlags: 0
